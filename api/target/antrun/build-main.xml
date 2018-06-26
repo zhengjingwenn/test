@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <echo>Moving autowire.xml to org/opendaylight/blueprint</echo>
-  <move file="D:\workspace\com.utstar.test\api\target/generated-resources/OSGI-INF/blueprint/autowire.xml" todir="D:\workspace\com.utstar.test\api\target/generated-resources/org/opendaylight/blueprint" failonerror="false" quiet="true"/>
-</target>
-</project>
