@@ -19,6 +19,7 @@ public class HelloWorldImpl implements HelloService{
     public Future<RpcResult<HelloWorldOutput>> helloWorld(HelloWorldInput input) {
         HelloWorldOutputBuilder helloBuilder = new HelloWorldOutputBuilder();
         helloBuilder.setGreeting("Hello " + input.getName());
+        System.out.println("test项目");
         return RpcResultBuilder.success(helloBuilder.build()).buildFuture();
     }
 }
