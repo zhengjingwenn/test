@@ -1,0 +1,3 @@
+com\utstar\test\cli\impl\helloCliCommandsImpl.class
+com\utstar\test\cli\api\helloCliCommands.class
+com\utstar\test\cli\commands\helloCliTestCommand.class

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1529978169411
+Build-Jdk: 1.8.0_161
+Built-By: ut
+Bundle-Description: OpenDaylight is leading the transformation to Open S
+ oftware Defined Networking (SDN). For more information, please see http
+ s://www.opendaylight.org
+Bundle-DocURL: https://www.opendaylight.org
+Bundle-License: https://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: ODL :: com.utstar.test :: com.utstar.test-cli
+Bundle-SymbolicName: com.utstar.test.com.utstar.test-cli
+Bundle-Vendor: OpenDaylight
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.utstar.test.cli.api;version="0.1.0",com.utstar.test.
+ cli.commands;uses:="com.utstar.test.cli.api,org.apache.karaf.shell.comm
+ ands,org.apache.karaf.shell.console";version="0.1.0"
+Import-Package: com.utstar.test.cli.api,org.apache.karaf.shell.commands;
+ version="[3.0,4)",org.apache.karaf.shell.console;version="[3.0,4)",org.
+ opendaylight.controller.md.sal.binding.api;version="[1.5,2)",org.slf4j;
+ version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

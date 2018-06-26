@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.16">
+<file name="D:\workspace\com.utstar.test\cli\src\main\java\com\utstar\test\cli\api\helloCliCommands.java">
+<error line="1" severity="warning" message="File has Windows (CR+LF) instead of UNIX (LF) end of line (EOL) delimiters." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="10" column="18" severity="warning" message="Type name &apos;helloCliCommands&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+</file>
+<file name="D:\workspace\com.utstar.test\cli\src\main\java\com\utstar\test\cli\commands\helloCliTestCommand.java">
+<error line="1" severity="warning" message="File has Windows (CR+LF) instead of UNIX (LF) end of line (EOL) delimiters." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;com.utstar.test.cli.api.helloCliCommands&apos; import. Should be before &apos;org.apache.karaf.shell.console.AbstractAction&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="21" severity="warning" message="Line is longer than 120 characters (found 144)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="22" column="14" severity="warning" message="Type name &apos;helloCliTestCommand&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+</file>
+<file name="D:\workspace\com.utstar.test\cli\src\main\java\com\utstar\test\cli\impl\helloCliCommandsImpl.java">
+<error line="1" severity="warning" message="File has Windows (CR+LF) instead of UNIX (LF) end of line (EOL) delimiters." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="13" severity="warning" message="Wrong lexicographical order for &apos;com.utstar.test.cli.api.helloCliCommands&apos; import. Should be before &apos;org.slf4j.LoggerFactory&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" column="14" severity="warning" message="Type name &apos;helloCliCommandsImpl&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+</file>
+</checkstyle>
