@@ -19,4 +19,4 @@ Import-Package: org.opendaylight.controller.md.sal.binding.api;version="
  ev150105;version="[0.1,1)",org.opendaylight.yangtools.yang.common;versi
  on="[1.1,2)",org.slf4j;version="[1.7,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
-Tool: Bnd-3.0.0.201509101326
+Tool: Bnd-3.0.0.201509101326s
